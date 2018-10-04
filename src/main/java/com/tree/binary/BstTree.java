@@ -1,4 +1,4 @@
-package main.java.com.tree.binary;
+package com.tree.binary;
 
 public class BstTree {
 

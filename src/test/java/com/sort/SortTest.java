@@ -1,18 +1,12 @@
-package test.java.com.sort;
+package com.sort;
+
+import com.sort.compare.*;
+import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.Random;
 
-import org.junit.Test;
 
-import main.java.com.sort.compare.BeanFactory;
-import main.java.com.sort.compare.Bubble;
-import main.java.com.sort.compare.Insert;
-import main.java.com.sort.compare.Merge;
-import main.java.com.sort.compare.Quick;
-import main.java.com.sort.compare.Select;
-import main.java.com.sort.compare.Shell;
-import main.java.com.sort.compare.Sort;
 
 
 //only compare sort
@@ -72,7 +66,7 @@ public class SortTest {
 		}
 		System.out.println(Arrays.toString(A));
 		BeanFactory beanFactory=new BeanFactory();
-		Sort sort=beanFactory.getBean(main.java.com.sort.compare.HeapSort.class);
+		Sort sort=beanFactory.getBean(com.sort.compare.HeapSort.class);
 		sort.sort(A, A.length);
 		System.out.println("HeapSort\n"+Arrays.toString(A));
 	}

@@ -1,13 +1,10 @@
-package test.java.com.link;
+package com.link;
 
 
-
-import java.util.Iterator;
-
-import org.junit.Test;
 
 import main.java.com.link.base.ListNode;
 import main.java.com.link.realize.MyLinkedList;
+import org.junit.Test;
 
 public class MyLinkedListTest {
 

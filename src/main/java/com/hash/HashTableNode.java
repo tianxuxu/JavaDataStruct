@@ -1,4 +1,4 @@
-package main.java.com.hash;
+package com.hash;
 
 public class HashTableNode {
 

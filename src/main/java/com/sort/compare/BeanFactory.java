@@ -1,4 +1,4 @@
-package main.java.com.sort.compare;
+package com.sort.compare;
 
 public class BeanFactory {
 

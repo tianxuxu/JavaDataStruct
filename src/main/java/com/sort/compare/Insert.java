@@ -1,8 +1,8 @@
-package main.java.com.sort.compare;
+package com.sort.compare;
 
 public class Insert implements Sort {
 
-	@Override
+
 	public void sort(int[] A, int length) {
 		// TODO Auto-generated method stub
 

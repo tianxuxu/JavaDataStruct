@@ -1,4 +1,4 @@
-package test.java.com.heap;
+package com.heap;
 
 import java.util.Arrays;
 import java.util.Random;

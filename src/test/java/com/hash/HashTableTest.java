@@ -1,12 +1,9 @@
-package test.java.com.hash;
-
-import java.util.Arrays;
-import java.util.Random;
+package com.hash;
 
 import org.junit.Test;
 
-import main.java.com.hash.HashTable;
-import main.java.com.hash.HashTableOperations;
+import java.util.Arrays;
+import java.util.Random;
 
 public class HashTableTest {
 	
